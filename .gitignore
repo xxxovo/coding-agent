@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+
+# OS specific
+.DS_Store
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+*.pb
+*.h5
+*.keras
+models/
+weights/
+checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
