@@ -27,3 +27,6 @@ def test_should_stop_expanding_when_hops_reach_limit():
     # 场景3: 分数很低，但是跳数已经用光了(hops=3)，为了防止死循环必须停下！期望返回 False。
     result = agent_should_expand_graph(score=0.1, current_hops=3)
     assert result == False
+
+def test_mcp_agent():
+    print('Hello from MCP Agent')
